@@ -13,9 +13,9 @@ export class AppService {
   private request$ : Observable<string> = 
    this.refreshClick$
    .startWith('startup click')
-   /*.map( () => Math.floor(Math.random()*500))
-   .map( randomOffset => `https://api.github.com/users?since=${randomOffset}`);*/
-   .map( () => `https://jsonblob.com/api/7343e6c8-ebbf-11e7-af5e-271968d76839`);
+   .map( () => Math.floor(Math.random()*500))
+   .map( randomOffset => `https://api.github.com/users?since=${randomOffset}`);
+   /*.map( () => `https://jsonblob.com/api/7343e6c8-ebbf-11e7-af5e-271968d76839`);*/
 
   private response$ : Observable<any> =
   this.request$
