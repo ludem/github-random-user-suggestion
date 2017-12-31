@@ -1,7 +1,7 @@
 # reactive-github-random-users
 
 Angular + RxJs implementation of Reactive Programming introduction example.
-Read the original article `https://gist.github.com/staltz/868e7e9bc2a7b8c1f754`
+Read the original article https://gist.github.com/staltz/868e7e9bc2a7b8c1f754
 
 ## Development server
 
