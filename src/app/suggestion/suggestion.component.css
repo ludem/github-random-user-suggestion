@@ -1,0 +1,42 @@
+.suggestion {
+  display: flex;
+  margin-bottom: 0.4rem;
+  padding: 0.2rem;
+}
+
+h4 {
+  flex-grow: 1;
+  margin: 0 1.5rem;
+  font-size: 1.2rem;
+}
+
+h4 span {
+  display: block;
+  color: silver;
+  font-size:1rem;
+}
+
+img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 10%;
+}
+
+.button {
+  font-family: Arial, Helvetica, sans-serif;
+  color: silver;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: black;
+}
+
+.button {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

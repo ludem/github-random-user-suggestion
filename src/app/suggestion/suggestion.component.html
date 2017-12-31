@@ -1,0 +1,11 @@
+<div *ngIf="user$ | async as user" class="suggestion">
+  <img [src]="user.avatar_url" alt="">
+  
+  <h4>
+    <a [href]="user.html_url">
+    {{user.login}}
+    <span>{{user.html_url}}</span>
+    </a>
+  </h4>
+  <div class = "button" (click)="closeClick$.next()">X</div>
+</div>
